@@ -9,7 +9,7 @@ Paulius B. self learning website project_
 
 This project is for learning porpuses only. Thank you for your visit!
 
-Site published [here](#)
+Site published [here](https://scarab911.github.io/6-ateivis/)
 
 Design: [Ateivis](#)
 

@@ -1,8 +1,9 @@
 # Planas
-- [ ] - Pradinis default aprasas:
+- [x] - Pradinis default aprasas:
     - gitignore failas
     - index.html
-    - img ir css
+    - img ir css katalogai
+    - main.css failas
     - Readme.md
     - Pages githube sukurimas
 
