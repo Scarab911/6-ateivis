@@ -7,10 +7,10 @@
     - Readme.md
     - Pages githube sukurimas
 
-- [ ] - Dizaino Analize:
+- [x] - Dizaino Analize:
     - bloku kiekis
     - paveiksleliai
 
-- [ ] - Paveiksleliu pasiruosimas ir panaudojimas
-- [ ] - Pradinis HTML
+- [x] - Paveiksleliu pasiruosimas ir panaudojimas
+- [x] - Pradinis HTML
 - [ ] - Stiliu CSS aprasymas
