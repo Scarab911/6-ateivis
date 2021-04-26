@@ -1,6 +1,6 @@
 body { 
         background-color: #4E4088;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -37,6 +37,8 @@ nav > a:first-of-type{
     display: inline-block;
     width: auto;
     float: left;
+    margin-right: 325px;
+    line-height: 28px;
     background-color: yellow;
 
 }
@@ -70,7 +72,10 @@ div > h1 {
     line-height: 30px;
     font-size: 32px;
     
+}
 
+h1 > span {
+    color: red;
 }
 
 div > p {
