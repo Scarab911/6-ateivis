@@ -3,95 +3,99 @@ body {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header {
+.top-container {
         display: inline-block;
-        background-color: aqua;
         width: 800px;
         margin-left: calc(50% - 400px);
 }
 
-header > img {
-         height: 30px;
-         float: left;
-         background-color: yellow;
-}
-
-header > nav {
-         display: inline-block;
-         width: auto;
-         float: right;
-         background-color: tomato;
-}
-
-nav > a {
+.logo {
     display: inline-block;
-    width: auto;
-    background-color: yellowgreen;
-    text-decoration: none;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-nav > a:first-of-type{
-    display: inline-block;
-    width: auto;
     float: left;
-    margin-right: 325px;
-    line-height: 28px;
-    background-color: yellow;
+    height: 40px;
+    margin-top: 10px;
+    }
 
+.menu {
+    display: inline-block;
+    float: right;
 }
 
-main { 
+.menu > a {
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    padding: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    border: transparent 3px solid;
+    color: white;
+}
+.menu > a:first-of-type {
+    font-size: 25px;
+    line-height: 40px;
+    padding-right: 230px;
+}
+.menu > a:last-of-type {
+    border-left: #625795 2px solid;
+}
+
+.main-container { 
     display: inline-block;
     width: 800px;
-    margin-left: calc(50% - 400px);
-    background-color: teal; width: 800px;
-}
+    margin-left: calc(50% - 400px); 
+    margin-top: 100px;
+   }
 
-main > image {
+.main-container > img {
     width: 43%;
-    margin-left: 2%;
+    margin-left: 5%;
     float: left;
 }
 
-main > div {
+.right-side {
     display: inline-block;
     width: 43%;
     margin-left: 4%;
     margin-right: 2%;
     float: right;
     text-align: center;
-
 }
 
-div > h1 {
+h1 {
     display: inline-block;
     width: 100%;
-    line-height: 30px;
-    font-size: 32px;
+    font-size: 47px;
+    text-align: left;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: white;
     
 }
 
-h1 > span {
-    color: red;
+span {
+    color: #DD3E62;
 }
 
-div > p {
+p {
     display: inline-block;
     width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 22px;
 
 }
 
-div > a {
+.right-side > a {
     display: inline-block;
     float: left;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: red dashed 2px;
+    padding: 5px 15px;
+    border: #B93E6C dashed 3px;
     border-radius: 15px;
     text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 
 }
