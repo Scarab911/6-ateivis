@@ -91,9 +91,9 @@ p {
 .right-side > a {
     display: inline-block;
     float: left;
-    padding: 5px 15px;
-    border: #B93E6C dashed 3px;
-    border-radius: 15px;
+    padding: 9px 34px;
+    border: 3px dashed rgb(185, 62, 108);
+    border-radius: 25px;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
